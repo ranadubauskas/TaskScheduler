@@ -6,7 +6,8 @@ https://beautiful-granita-cd2031.netlify.app/
 ## Features
 - Google sign-in authentification
 - Data stored for each user in Firebase backend 
-- Calendar feature to select date
+- Calendar feature to select date 
+- Date displayed for each task
 - Check tasks to delete 
 
 ## Built With
