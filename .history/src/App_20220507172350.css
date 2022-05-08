@@ -1,0 +1,20 @@
+.item{
+  background-color: lightcoral;
+  border: 2px solid grey;
+  border-radius: 20px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 50% 45% 5%;
+  align-items:center;
+  font-family: 'EB Garamond';
+  font-weight:bold; 
+}
+
+.title{
+  display: flex;
+  font-family: 'EB Garamond';
+  font-weight: bold;
+  padding-left: 50%;
+  
+  
+}

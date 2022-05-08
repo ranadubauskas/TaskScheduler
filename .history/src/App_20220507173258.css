@@ -1,0 +1,30 @@
+body {
+  background-color: #d3d3d3;
+  background-image: linear-gradient(315deg, #d3d3d3 0%, #ee5253 74%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.item{
+  background-color: grey;
+  border: 2px solid grey;
+  border-radius: 20px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 50% 45% 5%;
+  align-items:center;
+  font-family: 'EB Garamond';
+  font-weight:bold; 
+}
+
+.title{
+  display: flex;
+  font-family: 'EB Garamond';
+  font-weight: bold;
+  padding-left: 50%;
+}
+
+.searchbar{
+  width: 40%;
+}

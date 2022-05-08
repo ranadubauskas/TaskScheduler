@@ -1,0 +1,79 @@
+body {
+  background-color: #d3d3d3;
+  background-image: linear-gradient(315deg, #d3d3d3 0%,lightblue 74%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'EB Garamond';
+}
+
+.item{
+  background-color: white;
+  border: 2px solid grey;
+  border-radius: 20px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 50% 45% 5%;
+  align-items:center;
+  font-family: 'EB Garamond';
+  font-weight:bold; 
+}
+
+.title{
+  display: flex;
+  font-family: 'EB Garamond';
+  font-weight: bold;
+  padding-left: 50%;
+}
+
+.title2{
+  margin-left: 48%;
+}
+
+.searchbar{
+  width: 40%;
+}
+
+
+.btn {
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: Georgia, serif;
+  background-color: darkcyan;
+  padding: 17px 60px;
+  margin: auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+  }
+  
+  .btn span {
+  position: relative; 
+  z-index: 1;
+  }
+  
+  .btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: lightblue;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  }
+  
+  .btn:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  }

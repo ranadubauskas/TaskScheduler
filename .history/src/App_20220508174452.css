@@ -1,0 +1,43 @@
+body {
+  background-color: #d3d3d3;
+  background-image: linear-gradient(315deg, #d3d3d3 0%,lightblue 74%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'EB Garamond';
+}
+
+.item{
+  background-color: white;
+  border: 2px solid grey;
+  border-radius: 20px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 50% 45% 5%;
+  align-items:center;
+  font-family: 'EB Garamond';
+  font-weight:bold; 
+}
+
+.title{
+  display: flex;
+  font-family: 'EB Garamond';
+  font-weight: bold;
+  padding-left: 50%;
+}
+
+.searchbar{
+  width: 40%;
+}
+
+.login{
+  padding: 5%;
+  align-items: center;
+  border-radius: 20px;
+  font-family: 'EB Garamond';
+  font-weight:bold; 
+  font-size: 30px;
+  display:flex;
+  margin: auto;
+  margin-top: 10%;
+}
