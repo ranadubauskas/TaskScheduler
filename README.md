@@ -12,7 +12,7 @@ https://beautiful-granita-cd2031.netlify.app/
 
 ## Built With
 
-- React.JS
+- ReactJS
 - Firebase
 - HTML
 - CSS
